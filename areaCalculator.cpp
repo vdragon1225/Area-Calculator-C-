@@ -79,7 +79,7 @@ int main()
         {
             cout << "What is the base of the triangle? "; // find base of triangle
             base = isValid<double>();
-            cout << "What is the height of the rectangle? "; // find height of triangle
+            cout << "What is the height of the triangle? "; // find height of triangle
             height = isValid<double>();
             calculatedArea = areaTriangle(base, height);
             // roundedArea = round(calculatedArea * 10) / 10; // round area to one decimal place
